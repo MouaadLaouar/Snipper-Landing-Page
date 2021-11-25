@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 15vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px 100px;
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            margin-left: 10px;
+
+            :nth-child(2) {
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border-radius: 5px;
+            }
+
+            li {
+                list-style: none;
+                margin-left: 20px;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

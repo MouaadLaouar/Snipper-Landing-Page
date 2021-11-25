@@ -1,0 +1,48 @@
+.StickyFooter {
+  height: 70vh;
+  margin: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.StickyFooter section {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.StickyFooter section :nth-child(n) {
+  margin-top: 20px;
+}
+
+.StickyFooter section button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.StickyFooter img {
+  height: 400px;
+}

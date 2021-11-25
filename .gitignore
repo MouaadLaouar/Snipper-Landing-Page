@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/Snippet_Template_Starter_Files_e17c62083f
 
 # testing
 /coverage

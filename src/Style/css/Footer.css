@@ -1,0 +1,27 @@
+.Footer {
+  height: 85vh;
+  margin: 0px 100px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .menu ul li {
+  list-style: none;
+  margin-left: 15px;
+}

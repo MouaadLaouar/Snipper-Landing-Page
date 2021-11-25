@@ -1,0 +1,27 @@
+.Content {
+    height: 85vh;
+    padding: 0px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        margin-top: 50px;
+        font-size: 70px;
+    }
+
+    button {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    img {
+        height: 300px;
+    }
+}

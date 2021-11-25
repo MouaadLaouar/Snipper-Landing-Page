@@ -1,0 +1,19 @@
+.Footer {
+    height: 85vh;
+    margin: 0px 100px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            margin-left: 15px;
+        }
+    }
+}
